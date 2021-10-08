@@ -25,7 +25,7 @@ p {
 .connection,
 .benefit-list,
 .feature-list,
-.team-list,
+.team__list,
 .criteria,
 .portfolio,
 .social-list,
@@ -53,7 +53,7 @@ html {
 
 .benefit-title,
 .feature-title,
-.team-title,
+.team__title,
 .clients-title {
   color: var(--title-text-color);
   font-size: 36px;
@@ -147,11 +147,11 @@ html {
   line-height: 1.19;
 }
 
-.logo-black {
+.logo_color_black {
   color: #000000;
 }
 
-.logo-white {
+.logo_color_white {
   color: #ffffff;
 }
 
@@ -198,7 +198,7 @@ html {
   justify-content: center;
 }
 
-.social-link {
+.social-list__link {
   width: 44px;
   height: 44px;
   display: block;
@@ -208,25 +208,25 @@ html {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover,
-.social-link:focus,
+.social-list__link:hover,
+.social-list__link:focus,
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
 
-.social-item:not(:last-child) {
+.social-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-icon {
+.social-list__icon {
   fill: var(--icon-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
+.social-list__link:hover .social-list__icon,
+.social-list__link:focus .social-list__icon {
   fill: var(--white-color);
 }
 
@@ -275,7 +275,7 @@ html {
   margin: 0 auto;
 }
 
-.hero-title {
+.hero__title {
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
@@ -351,7 +351,7 @@ html {
   background-color: var(--bgc-light);
 }
 
-.team-title {
+.team__title {
   margin-bottom: 50px;
 }
 
@@ -366,7 +366,7 @@ html {
   margin-bottom: 16px;
 }
 
-.team-list {
+.team__list {
   display: flex;
 }
 
@@ -374,14 +374,14 @@ html {
   padding: 30px 0;
 }
 
-.team-dudes {
+.team__dudes {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
 
-.team-dudes:not(:last-child) {
+.team__dudes:not(:last-child) {
   margin-right: 30px;
 }
 
